@@ -1,0 +1,78 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "About.dc.html": {
+      "expand": "fill",
+      "h": 7400,
+      "is_interactive": true,
+      "title": "About Us",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "Contact.dc.html": {
+      "expand": "fill",
+      "h": 7200,
+      "is_interactive": true,
+      "title": "Contact Us",
+      "w": 1440,
+      "x": 6080,
+      "y": 0
+    },
+    "Main.dc.html": {
+      "expand": "fill",
+      "h": 7600,
+      "is_interactive": true,
+      "title": "Home",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "ProjectArt.dc.html": {
+      "h": 400,
+      "title": "Project visual (shared component)",
+      "w": 640,
+      "x": 7600,
+      "y": 0
+    },
+    "Services.dc.html": {
+      "expand": "fill",
+      "h": 8000,
+      "is_interactive": true,
+      "title": "Services",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "Work.dc.html": {
+      "expand": "fill",
+      "h": 7000,
+      "is_interactive": true,
+      "title": "Our Work",
+      "w": 1440,
+      "x": 4560,
+      "y": 0
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-11-17T04:59:02Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "file": "Main.dc.html",
+    "view": "focused"
+  },
+  "notes": {},
+  "order": [
+    "Main.dc.html",
+    "About.dc.html",
+    "Services.dc.html",
+    "Work.dc.html",
+    "Contact.dc.html",
+    "ProjectArt.dc.html"
+  ],
+  "pages": [],
+  "title": "Web Divider Website"
+}

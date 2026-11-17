@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Web Divider | Digital Marketing Agency for Growth-Focused Brands</title>
+<meta name="description" content="Web Divider is a creative digital marketing agency helping startups, SMBs, e-commerce and personal brands grow through strategy, creativity and technology.">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#05060B}
+html{scroll-behavior:smooth}
+a{color:#C4B5FD}a:hover{color:#E9E3FF}
+*{box-sizing:border-box}
+.wd-grad-text{background:linear-gradient(100deg,#A78BFA 0%,#7C9CFF 50%,#60A5FA 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.wd-nav-link{position:relative;transition:color .25s ease}
+.wd-nav-link::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;border-radius:2px;background:linear-gradient(90deg,#8B5CF6,#3B82F6);transform:scaleX(0);transform-origin:left;transition:transform .3s ease}
+.wd-nav-link:hover{color:#FFFFFF !important}
+.wd-nav-link:hover::after{transform:scaleX(1)}
+.wd-btn{transition:transform .25s ease,box-shadow .25s ease,background-color .25s ease,border-color .25s ease}
+.wd-btn:hover{transform:translateY(-2px)}
+.wd-btn-primary:hover{box-shadow:0 12px 40px -8px rgba(124,92,255,.65)}
+.wd-btn-ghost:hover{border-color:rgba(167,139,250,.7) !important;background-color:rgba(139,92,246,.10) !important}
+.wd-btn .wd-arrow{transition:transform .25s ease}
+.wd-btn:hover .wd-arrow{transform:translate(3px,-3px)}
+.wd-card{transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s ease,box-shadow .35s ease,background-color .35s ease}
+.wd-card:hover{transform:translateY(-6px);border-color:rgba(139,92,246,.55) !important;box-shadow:0 24px 60px -24px rgba(99,102,241,.55);background-color:rgba(20,22,48,.75) !important}
+.wd-card .wd-icon{transition:transform .35s ease,background-color .35s ease}
+.wd-card:hover .wd-icon{transform:scale(1.08) rotate(-4deg)}
+.wd-link{transition:gap .25s ease,color .25s ease}
+.wd-link:hover{gap:12px !important;color:#FFFFFF !important}
+.wd-work .wd-work-art{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.wd-work:hover .wd-work-art{transform:scale(1.06)}
+.wd-foot-link{transition:color .2s ease}
+.wd-foot-link:hover{color:#FFFFFF !important}
+@keyframes wdFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes wdSpin{to{transform:rotate(360deg)}}
+@keyframes wdSpinRev{to{transform:rotate(-360deg)}}
+@keyframes wdPulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:.9;transform:scale(1.06)}}
+@keyframes wdShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@keyframes wdFadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes wdMarquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes wdMenu{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
+.wd-float{animation:wdFloat 6s ease-in-out infinite}
+.wd-float-2{animation:wdFloat 7.5s ease-in-out infinite;animation-delay:-2s}
+.wd-spin{animation:wdSpin 28s linear infinite;transform-origin:center}
+.wd-spin-rev{animation:wdSpinRev 40s linear infinite;transform-origin:center}
+.wd-pulse{animation:wdPulse 6s ease-in-out infinite}
+.wd-shift{background-size:200% 200% !important;animation:wdShift 10s ease infinite}
+.wd-enter{animation:wdFadeUp .9s cubic-bezier(.2,.7,.2,1) both}
+.wd-d1{animation-delay:.1s}.wd-d2{animation-delay:.22s}.wd-d3{animation-delay:.34s}.wd-d4{animation-delay:.46s}
+.wd-marquee{animation:wdMarquee 32s linear infinite}
+.wd-menu{animation:wdMenu .3s ease both}
+@supports (animation-timeline: view()){
+.wd-reveal{animation:wdFadeUp linear both;animation-timeline:view();animation-range:entry 0% cover 22%}
+}
+.wd-burger{display:none !important}
+@media (max-width: 960px){
+.wd-nav-links{display:none !important}
+.wd-nav-cta{display:none !important}
+.wd-burger{display:inline-flex !important}
+}
+@media (prefers-reduced-motion: reduce){
+*,*::before,*::after{animation:none !important;transition:none !important;scroll-behavior:auto !important}
+}
+:focus-visible{outline:2px solid #A78BFA;outline-offset:3px;border-radius:8px}
+</style>
+</helmet>
+
+<div id="top" style="width: 100%; min-height: 100vh; background-color: #05060B; color: #EEF0FA; font-family: Inter, system-ui, sans-serif; font-size: 16px; line-height: 1.6; overflow-x: hidden; position: relative">
+
+<!-- ============ SECTION 1: NAVIGATION ============ -->
+<header style="position: sticky; top: 0; z-index: 50; background-color: rgba(5,6,11,0.72); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border-bottom: 1px solid rgba(255,255,255,0.07)">
+<nav aria-label="Main navigation" style="max-width: 1240px; margin: 0 auto; padding: 0 24px; height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px">
+<a href="#top" aria-label="Web Divider home" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #FFFFFF">
+<span aria-hidden="true" style="width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg,#8B5CF6,#3B82F6); display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px -8px rgba(124,92,255,.8)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M7 4 L12 20 L17 4"></path></svg>
+</span>
+<span style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 20px; letter-spacing: -0.02em">Web<span class="wd-grad-text">Divider</span></span>
+</a>
+<div class="wd-nav-links" style="display: flex; align-items: center; gap: 36px">
+<a class="wd-nav-link" href="#top" aria-current="page" style="color: #FFFFFF; text-decoration: none; font-size: 15px; font-weight: 500">Home</a>
+<a class="wd-nav-link" href="About.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px; font-weight: 500">About Us</a>
+<a class="wd-nav-link" href="Services.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px; font-weight: 500">Services</a>
+<a class="wd-nav-link" href="Work.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px; font-weight: 500">Our Work</a>
+<a class="wd-nav-link" href="Contact.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px; font-weight: 500">Contact Us</a>
+</div>
+<div style="display: flex; align-items: center; gap: 12px">
+<a class="wd-btn wd-btn-primary wd-nav-cta" href="Contact.dc.html" style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 22px; border-radius: 999px; background: linear-gradient(100deg,#8B5CF6,#3B82F6); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 15px">Let's Talk
+<svg class="wd-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+<button class="wd-burger" type="button" onClick="{{toggleMenu}}" aria-label="{{menuLabel}}" aria-expanded="{{menuOpenStr}}" style="width: 44px; height: 44px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); background-color: rgba(255,255,255,0.04); color: #FFFFFF; align-items: center; justify-content: center; cursor: pointer">
+<sc-if value="{{menuOpen}}" hint-placeholder-val="{{ false }}">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18"></path><path d="M6 6l12 12"></path></svg>
+</sc-if>
+<sc-if value="{{menuClosed}}" hint-placeholder-val="{{ true }}">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16"></path><path d="M4 12h16"></path><path d="M4 18h16"></path></svg>
+</sc-if>
+</button>
+</div>
+</nav>
+<sc-if value="{{menuOpen}}" hint-placeholder-val="{{ false }}">
+<div class="wd-menu" style="border-top: 1px solid rgba(255,255,255,0.07); background-color: rgba(8,10,22,0.97); padding: 16px 24px 28px; display: flex; flex-direction: column; gap: 4px">
+<a href="#top" onClick="{{closeMenu}}" style="color: #FFFFFF; text-decoration: none; font-size: 18px; font-weight: 500; padding: 14px 4px; border-bottom: 1px solid rgba(255,255,255,0.06)">Home</a>
+<a href="About.dc.html" style="color: #D4D8E8; text-decoration: none; font-size: 18px; font-weight: 500; padding: 14px 4px; border-bottom: 1px solid rgba(255,255,255,0.06)">About Us</a>
+<a href="Services.dc.html" onClick="{{closeMenu}}" style="color: #D4D8E8; text-decoration: none; font-size: 18px; font-weight: 500; padding: 14px 4px; border-bottom: 1px solid rgba(255,255,255,0.06)">Services</a>
+<a href="Work.dc.html" style="color: #D4D8E8; text-decoration: none; font-size: 18px; font-weight: 500; padding: 14px 4px; border-bottom: 1px solid rgba(255,255,255,0.06)">Our Work</a>
+<a href="Contact.dc.html" style="color: #D4D8E8; text-decoration: none; font-size: 18px; font-weight: 500; padding: 14px 4px; border-bottom: 1px solid rgba(255,255,255,0.06)">Contact Us</a>
+<a class="wd-btn wd-btn-primary" href="Contact.dc.html" style="margin-top: 16px; display: inline-flex; align-items: center; justify-content: center; height: 52px; border-radius: 999px; background: linear-gradient(100deg,#8B5CF6,#3B82F6); color: #FFFFFF; text-decoration: none; font-weight: 600">Let's Talk</a>
+</div>
+</sc-if>
+</header>
+
+<main>
+
+<!-- ============ SECTION 2: HERO ============ -->
+<section aria-labelledby="hero-title" style="position: relative; overflow: hidden; padding: 96px 24px 112px">
+<div aria-hidden="true" class="wd-pulse" style="position: absolute; top: -220px; left: -160px; width: 640px; height: 640px; border-radius: 50%; background: radial-gradient(circle, rgba(139,92,246,0.35), rgba(139,92,246,0) 65%); pointer-events: none"></div>
+<div aria-hidden="true" class="wd-pulse" style="position: absolute; bottom: -260px; right: -120px; width: 720px; height: 720px; border-radius: 50%; background: radial-gradient(circle, rgba(59,130,246,0.28), rgba(59,130,246,0) 65%); pointer-events: none; animation-delay: -3s"></div>
+<div aria-hidden="true" style="position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px); background-size: 64px 64px; pointer-events: none"></div>
+
+<div style="position: relative; max-width: 1240px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 56px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 28px">
+<div class="wd-enter" style="display: inline-flex; align-self: flex-start; align-items: center; gap: 10px; padding: 8px 16px 8px 10px; border-radius: 999px; border: 1px solid rgba(167,139,250,0.3); background-color: rgba(139,92,246,0.08); font-size: 13px; font-weight: 500; color: #D6CCFF; letter-spacing: 0.02em">
+<span style="width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(135deg,#A78BFA,#60A5FA); box-shadow: 0 0 12px #8B5CF6"></span>
+Digital Marketing Agency · US · UK · Canada · India
+</div>
+<h1 id="hero-title" class="wd-enter wd-d1" style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: clamp(44px, 6.4vw, 88px); line-height: 0.98; letter-spacing: -0.04em; color: #FFFFFF; text-transform: uppercase">We turn ideas into <span class="wd-grad-text">digital growth.</span></h1>
+<p class="wd-enter wd-d2" style="margin: 0; max-width: 540px; font-size: 19px; line-height: 1.65; color: #A9B0C9">From powerful digital strategies to creative experiences, we help brands stand out, connect with their audience, and grow their business.</p>
+<div class="wd-enter wd-d3" style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px">
+<a class="wd-btn wd-btn-primary" href="Services.dc.html" style="display: inline-flex; align-items: center; gap: 10px; height: 56px; padding: 0 28px; border-radius: 999px; background: linear-gradient(100deg,#8B5CF6,#3B82F6); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 16px">Explore Our Services
+<svg class="wd-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+<a class="wd-btn wd-btn-ghost" href="Contact.dc.html" style="display: inline-flex; align-items: center; gap: 10px; height: 56px; padding: 0 28px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); background-color: rgba(255,255,255,0.03); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 16px">Let's Work Together</a>
+</div>
+<div class="wd-enter wd-d4" style="display: flex; flex-wrap: wrap; gap: 28px; margin-top: 20px; padding-top: 28px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 14px; color: #8D94AE">
+<span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Strategy-first</span>
+<span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Creative-led</span>
+<span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Built to measure</span>
+</div>
+</div>
+
+<!-- hero visual -->
+<div class="wd-enter wd-d2" aria-hidden="true" style="position: relative; height: 560px; display: flex; align-items: center; justify-content: center">
+<svg class="wd-spin" width="520" height="520" viewBox="0 0 520 520" style="position: absolute; max-width: 100%" aria-hidden="true">
+<defs><linearGradient id="wdRing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A78BFA"></stop><stop offset="1" stop-color="#3B82F6" stop-opacity="0.1"></stop></linearGradient></defs>
+<circle cx="260" cy="260" r="250" fill="none" stroke="url(#wdRing)" stroke-width="1.2" stroke-dasharray="2 10"></circle>
+<circle cx="260" cy="10" r="6" fill="#A78BFA"></circle>
+</svg>
+<svg class="wd-spin-rev" width="420" height="420" viewBox="0 0 420 420" style="position: absolute; max-width: 90%" aria-hidden="true">
+<ellipse cx="210" cy="210" rx="200" ry="200" fill="none" stroke="rgba(96,165,250,0.35)" stroke-width="1"></ellipse>
+<circle cx="410" cy="210" r="5" fill="#60A5FA"></circle>
+<circle cx="10" cy="210" r="3" fill="#C4B5FD"></circle>
+</svg>
+<div class="wd-float" style="position: relative; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle at 32% 28%, #C9B8FF 0%, #8B5CF6 28%, #4338CA 58%, #0B1024 100%); box-shadow: 0 0 120px 10px rgba(124,92,255,0.45), inset -30px -40px 80px rgba(5,6,11,0.8), inset 20px 20px 60px rgba(255,255,255,0.18)">
+<div style="position: absolute; inset: 0; border-radius: 50%; background: linear-gradient(115deg, transparent 46%, rgba(255,255,255,0.22) 49%, rgba(255,255,255,0.0) 52%, transparent 54%)"></div>
+<div style="position: absolute; left: 50%; top: -20px; bottom: -20px; width: 2px; transform: translateX(-50%) rotate(18deg); background: linear-gradient(180deg, transparent, rgba(255,255,255,0.9), transparent)"></div>
+</div>
+<div class="wd-float-2" style="position: absolute; top: 54px; right: 2%; padding: 16px 18px; border-radius: 18px; border: 1px solid rgba(255,255,255,0.12); background-color: rgba(18,20,42,0.55); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); display: flex; align-items: center; gap: 12px; box-shadow: 0 20px 50px -20px rgba(0,0,0,0.6)">
+<span style="width: 38px; height: 38px; border-radius: 11px; background: linear-gradient(135deg,#8B5CF6,#3B82F6); display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg></span>
+<span style="display: flex; flex-direction: column; line-height: 1.25"><span style="font-size: 12px; color: #8D94AE">Focus</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; color: #FFFFFF">Measurable growth</span></span>
+</div>
+<div class="wd-float" style="position: absolute; bottom: 70px; left: 0; padding: 16px 18px; border-radius: 18px; border: 1px solid rgba(255,255,255,0.12); background-color: rgba(18,20,42,0.55); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); display: flex; flex-direction: column; gap: 10px; width: 210px; animation-delay: -3s; box-shadow: 0 20px 50px -20px rgba(0,0,0,0.6)">
+<span style="font-size: 12px; color: #8D94AE">Channel mix</span>
+<span style="display: flex; align-items: flex-end; gap: 6px; height: 48px">
+<span style="flex: 1; height: 40%; border-radius: 4px; background: rgba(167,139,250,0.45)"></span>
+<span style="flex: 1; height: 65%; border-radius: 4px; background: rgba(167,139,250,0.65)"></span>
+<span style="flex: 1; height: 52%; border-radius: 4px; background: rgba(124,156,255,0.7)"></span>
+<span style="flex: 1; height: 85%; border-radius: 4px; background: linear-gradient(180deg,#A78BFA,#3B82F6)"></span>
+<span style="flex: 1; height: 100%; border-radius: 4px; background: linear-gradient(180deg,#C4B5FD,#60A5FA)"></span>
+</span>
+<span style="display: flex; gap: 6px; flex-wrap: wrap; font-size: 11px; color: #C9CEE0"><span>SEO</span><span>·</span><span>Social</span><span>·</span><span>Ads</span></span>
+</div>
+<div class="wd-float-2" style="position: absolute; bottom: 16px; right: 12%; padding: 10px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.12); background-color: rgba(18,20,42,0.6); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); font-size: 13px; font-weight: 500; color: #E4E0FF; display: flex; align-items: center; gap: 8px">
+<span style="width: 8px; height: 8px; border-radius: 50%; background-color: #34D399; box-shadow: 0 0 10px #34D399"></span>Strategy · Creative · Tech
+</div>
+</div>
+</div>
+</section>
+
+<!-- ============ SECTION 3: BRAND STRIP ============ -->
+<section aria-labelledby="brands-title" style="padding: 40px 0 56px; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); background-color: #070915">
+<div style="max-width: 1240px; margin: 0 auto 28px; padding: 0 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px">
+<h2 id="brands-title" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.22em; color: #A9B0C9">BUILT FOR AMBITIOUS BRANDS</h2>
+<p style="margin: 0; font-size: 12px; color: #7F86A0">Placeholder names for illustration. Not real clients.</p>
+</div>
+<div style="overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent)">
+<div class="wd-marquee" style="display: flex; gap: 72px; width: max-content; align-items: center; font-family: 'Space Grotesk', sans-serif; font-size: 26px; font-weight: 600; color: rgba(238,240,250,0.42); letter-spacing: -0.01em; white-space: nowrap">
+<span>[ Brand One ]</span><span style="font-style: italic">Startup Co.</span><span>◆ Your Store</span><span style="letter-spacing: 0.2em; font-size: 20px">BRANDNAME</span><span>Founder Studio</span><span>● Placeholder</span><span style="font-style: italic">Next Client</span>
+<span aria-hidden="true">[ Brand One ]</span><span aria-hidden="true" style="font-style: italic">Startup Co.</span><span aria-hidden="true">◆ Your Store</span><span aria-hidden="true" style="letter-spacing: 0.2em; font-size: 20px">BRANDNAME</span><span aria-hidden="true">Founder Studio</span><span aria-hidden="true">● Placeholder</span><span aria-hidden="true" style="font-style: italic">Next Client</span>
+</div>
+</div>
+</section>
+
+<!-- ============ SECTION 4: ABOUT ============ -->
+<section id="about" aria-labelledby="about-title" style="padding: 128px 24px; scroll-margin-top: 76px">
+<div class="wd-reveal" style="max-width: 1240px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 72px; align-items: center">
+<div aria-hidden="true" style="position: relative; height: 480px; border-radius: 28px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background-color: #0B1024">
+<div class="wd-shift" style="position: absolute; inset: 0; background: linear-gradient(135deg, #0B1024 0%, #2A1B6B 35%, #1E3A8A 65%, #0B1024 100%)"></div>
+<div style="position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,0.14) 1px, transparent 1px); background-size: 22px 22px; opacity: 0.5"></div>
+<div style="position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: linear-gradient(180deg, transparent, rgba(196,181,253,0.9), transparent)"></div>
+<div class="wd-float" style="position: absolute; left: 12%; top: 18%; width: 34%; aspect-ratio: 1; border-radius: 24px; border: 1px solid rgba(255,255,255,0.18); background-color: rgba(255,255,255,0.06); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px)"></div>
+<div class="wd-float-2" style="position: absolute; right: 12%; bottom: 16%; width: 38%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #C4B5FD, #7C3AED 45%, #1E1B4B 100%); box-shadow: 0 0 80px rgba(139,92,246,0.5)"></div>
+<div style="position: absolute; left: 24px; bottom: 24px; padding: 10px 16px; border-radius: 12px; background-color: rgba(5,6,11,0.55); border: 1px solid rgba(255,255,255,0.1); font-family: 'Space Grotesk', sans-serif; font-size: 13px; letter-spacing: 0.16em; color: #D6CCFF">STRATEGY | CREATIVITY | TECHNOLOGY</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.22em; color: #A78BFA">ABOUT WEB DIVIDER</span>
+<h2 id="about-title" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.04; letter-spacing: -0.03em; color: #FFFFFF; text-transform: uppercase">We don't just build brands. <span class="wd-grad-text">We build digital momentum.</span></h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.65; color: #D4D8E8">Web Divider is a creative digital marketing agency focused on helping businesses build a stronger online presence through strategy, creativity, and technology.</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #A9B0C9">We partner with startups, growing businesses, e-commerce brands and personal brands across the US, UK, Canada and India. Every engagement starts with understanding your goals, then we design the campaigns, content and digital experiences that move you toward them.</p>
+<a class="wd-btn wd-btn-ghost" href="About.dc.html" style="align-self: flex-start; margin-top: 8px; display: inline-flex; align-items: center; gap: 10px; height: 52px; padding: 0 26px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); background-color: rgba(255,255,255,0.03); color: #FFFFFF; text-decoration: none; font-weight: 600">Discover More
+<svg class="wd-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
+</div>
+</section>
+
+<!-- ============ SECTION 5: SERVICES ============ -->
+<section id="services" aria-labelledby="services-title" style="padding: 128px 24px; background: linear-gradient(180deg, #05060B 0%, #090C1E 50%, #05060B 100%); scroll-margin-top: 76px">
+<div style="max-width: 1240px; margin: 0 auto">
+<div class="wd-reveal" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 640px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.22em; color: #A78BFA">OUR SERVICES</span>
+<h2 id="services-title" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 64px); line-height: 1; letter-spacing: -0.035em; color: #FFFFFF">WHAT WE DO <span class="wd-grad-text">BEST</span></h2>
+</div>
+<p style="margin: 0; max-width: 420px; color: #A9B0C9">Six connected disciplines, one team. We combine them into a single growth plan built around your brand.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 20px">
+
+<article class="wd-card wd-reveal" style="padding: 32px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; flex-direction: column; gap: 18px">
+<span class="wd-icon" style="width: 56px; height: 56px; border-radius: 16px; background: linear-gradient(135deg, rgba(139,92,246,0.25), rgba(59,130,246,0.2)); border: 1px solid rgba(167,139,250,0.35); display: flex; align-items: center; justify-content: center; color: #C4B5FD"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: #FFFFFF; letter-spacing: -0.01em">Social Media Marketing</h3>
+<p style="margin: 0; color: #A9B0C9; flex-grow: 1">Platform strategy, content calendars and community management that turn followers into a loyal audience.</p>
+<a class="wd-link" href="#contact" aria-label="Learn more about Social Media Marketing" style="display: inline-flex; align-items: center; gap: 8px; color: #C4B5FD; text-decoration: none; font-weight: 600; font-size: 15px">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+</article>
+
+<article class="wd-card wd-reveal" style="padding: 32px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; flex-direction: column; gap: 18px">
+<span class="wd-icon" style="width: 56px; height: 56px; border-radius: 16px; background: linear-gradient(135deg, rgba(139,92,246,0.25), rgba(59,130,246,0.2)); border: 1px solid rgba(167,139,250,0.35); display: flex; align-items: center; justify-content: center; color: #C4B5FD"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: #FFFFFF; letter-spacing: -0.01em">Website Design &amp; Development</h3>
+<p style="margin: 0; color: #A9B0C9; flex-grow: 1">Fast, responsive, conversion-focused websites that look premium and are easy for you to manage.</p>
+<a class="wd-link" href="#contact" aria-label="Learn more about Website Design and Development" style="display: inline-flex; align-items: center; gap: 8px; color: #C4B5FD; text-decoration: none; font-weight: 600; font-size: 15px">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+</article>
+
+<article class="wd-card wd-reveal" style="padding: 32px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; flex-direction: column; gap: 18px">
+<span class="wd-icon" style="width: 56px; height: 56px; border-radius: 16px; background: linear-gradient(135deg, rgba(139,92,246,0.25), rgba(59,130,246,0.2)); border: 1px solid rgba(167,139,250,0.35); display: flex; align-items: center; justify-content: center; color: #C4B5FD"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: #FFFFFF; letter-spacing: -0.01em">SEO (Search Engine Optimization)</h3>
+<p style="margin: 0; color: #A9B0C9; flex-grow: 1">Technical, on-page and content SEO that helps the right customers find you on search, organically.</p>
+<a class="wd-link" href="#contact" aria-label="Learn more about SEO" style="display: inline-flex; align-items: center; gap: 8px; color: #C4B5FD; text-decoration: none; font-weight: 600; font-size: 15px">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+</article>
+
+<article class="wd-card wd-reveal" style="padding: 32px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; flex-direction: column; gap: 18px">
+<span class="wd-icon" style="width: 56px; height: 56px; border-radius: 16px; background: linear-gradient(135deg, rgba(139,92,246,0.25), rgba(59,130,246,0.2)); border: 1px solid rgba(167,139,250,0.35); display: flex; align-items: center; justify-content: center; color: #C4B5FD"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: #FFFFFF; letter-spacing: -0.01em">Content Creation</h3>
+<p style="margin: 0; color: #A9B0C9; flex-grow: 1">Scroll-stopping videos, graphics and copy crafted for every platform and every stage of the funnel.</p>
+<a class="wd-link" href="#contact" aria-label="Learn more about Content Creation" style="display: inline-flex; align-items: center; gap: 8px; color: #C4B5FD; text-decoration: none; font-weight: 600; font-size: 15px">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+</article>
+
+<article class="wd-card wd-reveal" style="padding: 32px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; flex-direction: column; gap: 18px">
+<span class="wd-icon" style="width: 56px; height: 56px; border-radius: 16px; background: linear-gradient(135deg, rgba(139,92,246,0.25), rgba(59,130,246,0.2)); border: 1px solid rgba(167,139,250,0.35); display: flex; align-items: center; justify-content: center; color: #C4B5FD"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: #FFFFFF; letter-spacing: -0.01em">Paid Advertising</h3>
+<p style="margin: 0; color: #A9B0C9; flex-grow: 1">Targeted campaigns on Google, Meta and more, tested and optimised to make every budget work harder.</p>
+<a class="wd-link" href="#contact" aria-label="Learn more about Paid Advertising" style="display: inline-flex; align-items: center; gap: 8px; color: #C4B5FD; text-decoration: none; font-weight: 600; font-size: 15px">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+</article>
+
+<article class="wd-card wd-reveal" style="padding: 32px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; flex-direction: column; gap: 18px">
+<span class="wd-icon" style="width: 56px; height: 56px; border-radius: 16px; background: linear-gradient(135deg, rgba(139,92,246,0.25), rgba(59,130,246,0.2)); border: 1px solid rgba(167,139,250,0.35); display: flex; align-items: center; justify-content: center; color: #C4B5FD"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2z"></path></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: #FFFFFF; letter-spacing: -0.01em">Branding &amp; Creative Design</h3>
+<p style="margin: 0; color: #A9B0C9; flex-grow: 1">Logos, visual identities and brand systems that make you instantly recognisable and memorable.</p>
+<a class="wd-link" href="#contact" aria-label="Learn more about Branding and Creative Design" style="display: inline-flex; align-items: center; gap: 8px; color: #C4B5FD; text-decoration: none; font-weight: 600; font-size: 15px">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- ============ SECTION 6: WHY CHOOSE US ============ -->
+<section id="why" aria-labelledby="why-title" style="padding: 128px 24px; scroll-margin-top: 76px">
+<div style="max-width: 1240px; margin: 0 auto">
+<div class="wd-reveal" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px; margin-bottom: 56px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.22em; color: #A78BFA">WHY WEB DIVIDER</span>
+<h2 id="why-title" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 64px); line-height: 1; letter-spacing: -0.035em; color: #FFFFFF">WHY BRANDS <span class="wd-grad-text">CHOOSE US</span></h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px">
+
+<div class="wd-card wd-reveal" style="padding: 32px 28px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.5); display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 14px; color: #7F86A0">01</span>
+<span class="wd-icon" style="width: 48px; height: 48px; border-radius: 14px; background: linear-gradient(135deg,#8B5CF6,#3B82F6); display: flex; align-items: center; justify-content: center; color: #FFFFFF"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6"></path><path d="M10 22h4"></path><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"></path></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 600; color: #FFFFFF">Creative Thinking</h3>
+<p style="margin: 0; color: #A9B0C9; font-size: 15px">Fresh ideas that cut through the noise and give your brand a voice people remember.</p>
+</div>
+
+<div class="wd-card wd-reveal" style="padding: 32px 28px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.5); display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 14px; color: #7F86A0">02</span>
+<span class="wd-icon" style="width: 48px; height: 48px; border-radius: 14px; background: linear-gradient(135deg,#8B5CF6,#3B82F6); display: flex; align-items: center; justify-content: center; color: #FFFFFF"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 600; color: #FFFFFF">Data-Driven Strategies</h3>
+<p style="margin: 0; color: #A9B0C9; font-size: 15px">Every decision is guided by research, analytics and continuous testing, not guesswork.</p>
+</div>
+
+<div class="wd-card wd-reveal" style="padding: 32px 28px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.5); display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 14px; color: #7F86A0">03</span>
+<span class="wd-icon" style="width: 48px; height: 48px; border-radius: 14px; background: linear-gradient(135deg,#8B5CF6,#3B82F6); display: flex; align-items: center; justify-content: center; color: #FFFFFF"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21v-7"></path><path d="M4 10V3"></path><path d="M12 21v-9"></path><path d="M12 8V3"></path><path d="M20 21v-5"></path><path d="M20 12V3"></path><path d="M1 14h6"></path><path d="M9 8h6"></path><path d="M17 16h6"></path></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 600; color: #FFFFFF">Customized Solutions</h3>
+<p style="margin: 0; color: #A9B0C9; font-size: 15px">No one-size-fits-all packages. Plans are shaped around your market, goals and budget.</p>
+</div>
+
+<div class="wd-card wd-reveal" style="padding: 32px 28px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background-color: rgba(14,16,36,0.5); display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 14px; color: #7F86A0">04</span>
+<span class="wd-icon" style="width: 48px; height: 48px; border-radius: 14px; background: linear-gradient(135deg,#8B5CF6,#3B82F6); display: flex; align-items: center; justify-content: center; color: #FFFFFF"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg></span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 600; color: #FFFFFF">Growth-Focused Approach</h3>
+<p style="margin: 0; color: #A9B0C9; font-size: 15px">We measure success by your results: more reach, more leads and more revenue.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ============ SECTION 7: SELECTED WORK ============ -->
+<section id="work" aria-labelledby="work-title" style="padding: 128px 24px; background-color: #070915; border-top: 1px solid rgba(255,255,255,0.06); scroll-margin-top: 76px">
+<div style="max-width: 1240px; margin: 0 auto">
+<div class="wd-reveal" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 56px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.22em; color: #A78BFA">OUR SELECTED WORK</span>
+<h2 id="work-title" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 64px); line-height: 1; letter-spacing: -0.035em; color: #FFFFFF">SELECTED WORK. <span class="wd-grad-text">REAL CREATIVITY.</span></h2>
+</div>
+<p style="margin: 0; max-width: 380px; color: #A9B0C9; font-size: 15px">The projects below are sample concepts that show our style and approach. They are not client work.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr)); gap: 24px">
+
+<article class="wd-work wd-reveal" style="border-radius: 28px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background-color: #0B0E22">
+<div style="position: relative; height: 340px; overflow: hidden">
+<div class="wd-work-art" aria-hidden="true" style="position: absolute; inset: 0; background: radial-gradient(circle at 70% 30%, #A78BFA 0%, #6D28D9 25%, #1E1B4B 60%, #0B0E22 100%)">
+<div style="position: absolute; left: 10%; top: 22%; width: 46%; height: 56%; border-radius: 18px; background-color: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(8px)"></div>
+<div style="position: absolute; left: 16%; top: 32%; width: 30%; height: 10px; border-radius: 6px; background-color: rgba(255,255,255,0.6)"></div>
+<div style="position: absolute; left: 16%; top: 40%; width: 22%; height: 10px; border-radius: 6px; background-color: rgba(255,255,255,0.3)"></div>
+<div style="position: absolute; right: 12%; bottom: 18%; width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg,#C4B5FD,#3B82F6)"></div>
+</div>
+<span style="position: absolute; top: 20px; left: 20px; padding: 6px 12px; border-radius: 999px; background-color: rgba(5,6,11,0.7); border: 1px solid rgba(255,255,255,0.15); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; color: #FDE68A">SAMPLE PROJECT</span>
+</div>
+<div style="padding: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; color: #A78BFA">BRANDING &amp; IDENTITY</span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 600; color: #FFFFFF">Lumen: Brand Identity Concept</h3>
+</div>
+<a class="wd-btn wd-btn-ghost" href="Work.dc.html" aria-label="View project: Lumen brand identity concept" style="display: inline-flex; align-items: center; gap: 8px; height: 46px; padding: 0 20px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 14px; background-color: rgba(255,255,255,0.03)">View Project <svg class="wd-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
+</article>
+
+<article class="wd-work wd-reveal" style="border-radius: 28px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background-color: #0B0E22">
+<div style="position: relative; height: 340px; overflow: hidden">
+<div class="wd-work-art" aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(150deg, #0B1024 0%, #1E3A8A 50%, #3B82F6 100%)">
+<div style="position: absolute; left: 12%; right: 12%; top: 16%; bottom: 0; border-radius: 16px 16px 0 0; background-color: #0B1024; border: 1px solid rgba(255,255,255,0.18); box-shadow: 0 -20px 60px rgba(0,0,0,0.35)"></div>
+<div style="position: absolute; left: 12%; right: 12%; top: 16%; height: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; gap: 6px; padding: 10px 14px"><span style="width: 9px; height: 9px; border-radius: 50%; background-color: #F87171"></span><span style="width: 9px; height: 9px; border-radius: 50%; background-color: #FBBF24"></span><span style="width: 9px; height: 9px; border-radius: 50%; background-color: #34D399"></span></div>
+<div style="position: absolute; left: 18%; top: 34%; width: 40%; height: 16px; border-radius: 6px; background: linear-gradient(90deg,#A78BFA,#60A5FA)"></div>
+<div style="position: absolute; left: 18%; top: 44%; width: 28%; height: 10px; border-radius: 6px; background-color: rgba(255,255,255,0.25)"></div>
+<div style="position: absolute; left: 18%; top: 58%; width: 64%; height: 30%; border-radius: 10px; background-color: rgba(255,255,255,0.06)"></div>
+</div>
+<span style="position: absolute; top: 20px; left: 20px; padding: 6px 12px; border-radius: 999px; background-color: rgba(5,6,11,0.7); border: 1px solid rgba(255,255,255,0.15); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; color: #FDE68A">SAMPLE PROJECT</span>
+</div>
+<div style="padding: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; color: #A78BFA">WEB DESIGN &amp; DEVELOPMENT</span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 600; color: #FFFFFF">Orbit: E-commerce Store Concept</h3>
+</div>
+<a class="wd-btn wd-btn-ghost" href="Work.dc.html" aria-label="View project: Orbit e-commerce store concept" style="display: inline-flex; align-items: center; gap: 8px; height: 46px; padding: 0 20px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 14px; background-color: rgba(255,255,255,0.03)">View Project <svg class="wd-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
+</article>
+
+<article class="wd-work wd-reveal" style="border-radius: 28px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background-color: #0B0E22">
+<div style="position: relative; height: 340px; overflow: hidden">
+<div class="wd-work-art" aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(200deg, #312E81 0%, #0B1024 55%, #05060B 100%)">
+<div style="position: absolute; left: 14%; top: 14%; width: 26%; height: 72%; border-radius: 22px; background: linear-gradient(180deg,#8B5CF6,#3B82F6); transform: rotate(-6deg); border: 1px solid rgba(255,255,255,0.25)"></div>
+<div style="position: absolute; left: 38%; top: 10%; width: 26%; height: 72%; border-radius: 22px; background-color: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(6px)"></div>
+<div style="position: absolute; left: 62%; top: 16%; width: 26%; height: 72%; border-radius: 22px; background: linear-gradient(180deg,#1E3A8A,#6D28D9); transform: rotate(6deg); border: 1px solid rgba(255,255,255,0.2)"></div>
+</div>
+<span style="position: absolute; top: 20px; left: 20px; padding: 6px 12px; border-radius: 999px; background-color: rgba(5,6,11,0.7); border: 1px solid rgba(255,255,255,0.15); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; color: #FDE68A">SAMPLE PROJECT</span>
+</div>
+<div style="padding: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; color: #A78BFA">SOCIAL MEDIA &amp; CONTENT</span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 600; color: #FFFFFF">Pulse: Social Campaign Concept</h3>
+</div>
+<a class="wd-btn wd-btn-ghost" href="Work.dc.html" aria-label="View project: Pulse social campaign concept" style="display: inline-flex; align-items: center; gap: 8px; height: 46px; padding: 0 20px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 14px; background-color: rgba(255,255,255,0.03)">View Project <svg class="wd-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
+</article>
+
+<article class="wd-work wd-reveal" style="border-radius: 28px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background-color: #0B0E22">
+<div style="position: relative; height: 340px; overflow: hidden">
+<div class="wd-work-art" aria-hidden="true" style="position: absolute; inset: 0; background: radial-gradient(circle at 25% 75%, #60A5FA 0%, #4338CA 30%, #0B1024 70%)">
+<svg viewBox="0 0 400 200" preserveAspectRatio="none" style="position: absolute; left: 8%; right: 8%; bottom: 18%; width: 84%; height: 50%" aria-hidden="true"><polyline points="0,170 60,140 120,150 180,100 240,110 300,60 360,40 400,20" fill="none" stroke="#C4B5FD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline><polyline points="0,190 80,175 160,170 240,150 320,130 400,110" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-dasharray="6 6"></polyline></svg>
+<div style="position: absolute; right: 10%; top: 16%; padding: 14px 18px; border-radius: 14px; background-color: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; font-family: 'Space Grotesk', sans-serif; font-weight: 600">Search &amp; Ads</div>
+</div>
+<span style="position: absolute; top: 20px; left: 20px; padding: 6px 12px; border-radius: 999px; background-color: rgba(5,6,11,0.7); border: 1px solid rgba(255,255,255,0.15); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; color: #FDE68A">SAMPLE PROJECT</span>
+</div>
+<div style="padding: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; color: #A78BFA">SEO &amp; PAID ADVERTISING</span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 600; color: #FFFFFF">Vertex: Growth Campaign Concept</h3>
+</div>
+<a class="wd-btn wd-btn-ghost" href="Work.dc.html" aria-label="View project: Vertex growth campaign concept" style="display: inline-flex; align-items: center; gap: 8px; height: 46px; padding: 0 20px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 14px; background-color: rgba(255,255,255,0.03)">View Project <svg class="wd-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
+</article>
+
+</div>
+<div class="wd-reveal" style="display: flex; justify-content: center; margin-top: 48px">
+<a class="wd-btn wd-btn-primary" href="Work.dc.html" style="display: inline-flex; align-items: center; gap: 10px; height: 56px; padding: 0 30px; border-radius: 999px; background: linear-gradient(100deg,#8B5CF6,#3B82F6); color: #FFFFFF; text-decoration: none; font-weight: 600">Explore All Projects <svg class="wd-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
+</div>
+</section>
+
+<!-- ============ SECTION 8: STATS ============ -->
+<section aria-labelledby="stats-title" style="padding: 112px 24px">
+<div class="wd-reveal" style="position: relative; max-width: 1240px; margin: 0 auto; border-radius: 32px; overflow: hidden; border: 1px solid rgba(167,139,250,0.25); padding: 64px 40px">
+<div class="wd-shift" aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(120deg, rgba(139,92,246,0.22), rgba(11,16,36,0.9) 40%, rgba(59,130,246,0.22))"></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<h2 id="stats-title" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(26px, 3vw, 36px); font-weight: 700; color: #FFFFFF; letter-spacing: -0.02em">Results that speak for themselves</h2>
+<span style="padding: 6px 14px; border-radius: 999px; border: 1px dashed rgba(253,230,138,0.6); color: #FDE68A; font-size: 12px; font-weight: 600; letter-spacing: 0.08em">PLACEHOLDER VALUES. REPLACE WITH REAL DATA</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px; padding-left: 20px; border-left: 1px solid rgba(255,255,255,0.15)">
+<span class="wd-grad-text" style="font-family: 'Space Grotesk', sans-serif; font-size: 60px; font-weight: 700; line-height: 1; letter-spacing: -0.03em">[00]+</span>
+<span style="color: #D4D8E8; font-weight: 500">Projects Completed</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding-left: 20px; border-left: 1px solid rgba(255,255,255,0.15)">
+<span class="wd-grad-text" style="font-family: 'Space Grotesk', sans-serif; font-size: 60px; font-weight: 700; line-height: 1; letter-spacing: -0.03em">[00]+</span>
+<span style="color: #D4D8E8; font-weight: 500">Brands Supported</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding-left: 20px; border-left: 1px solid rgba(255,255,255,0.15)">
+<span class="wd-grad-text" style="font-family: 'Space Grotesk', sans-serif; font-size: 60px; font-weight: 700; line-height: 1; letter-spacing: -0.03em">[00]</span>
+<span style="color: #D4D8E8; font-weight: 500">Industries Served</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding-left: 20px; border-left: 1px solid rgba(255,255,255,0.15)">
+<span class="wd-grad-text" style="font-family: 'Space Grotesk', sans-serif; font-size: 60px; font-weight: 700; line-height: 1; letter-spacing: -0.03em">[00]%</span>
+<span style="color: #D4D8E8; font-weight: 500">Client Satisfaction</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ============ SECTION 9: TESTIMONIALS ============ -->
+<section aria-labelledby="testi-title" style="padding: 96px 24px 128px">
+<div style="max-width: 960px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 40px">
+<div class="wd-reveal" style="display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.22em; color: #A78BFA">CLIENT TESTIMONIALS</span>
+<h2 id="testi-title" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 64px); line-height: 1; letter-spacing: -0.035em; color: #FFFFFF">WHAT PEOPLE <span class="wd-grad-text">SAY</span></h2>
+</div>
+<div class="wd-reveal" role="region" aria-roledescription="carousel" aria-label="Sample testimonials" style="width: 100%; position: relative; border-radius: 32px; border: 1px solid rgba(255,255,255,0.1); background-color: rgba(14,16,36,0.6); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); padding: clamp(32px, 5vw, 64px)">
+<span style="position: absolute; top: 24px; right: 24px; padding: 6px 12px; border-radius: 999px; border: 1px dashed rgba(253,230,138,0.6); color: #FDE68A; font-size: 11px; font-weight: 600; letter-spacing: 0.08em">SAMPLE CONTENT</span>
+<span aria-hidden="true" class="wd-grad-text" style="display: block; font-family: 'Space Grotesk', sans-serif; font-size: 96px; line-height: 0.6; height: 48px">“</span>
+
+<div aria-live="polite" style="min-height: 210px">
+<sc-if value="{{show0}}" hint-placeholder-val="{{ true }}">
+<figure class="wd-menu" style="margin: 0; display: flex; flex-direction: column; gap: 28px">
+<blockquote style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(20px, 2.4vw, 28px); line-height: 1.4; color: #FFFFFF; font-weight: 500">Web Divider brought clarity to our launch. The strategy was sharp, the creative felt premium, and the whole process was easy to follow.</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 14px"><span aria-hidden="true" style="width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg,#8B5CF6,#3B82F6); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #FFFFFF">A</span><span style="display: flex; flex-direction: column; line-height: 1.3"><span style="color: #FFFFFF; font-weight: 600">[Client Name]</span><span style="color: #8D94AE; font-size: 14px">Founder, [Startup Name]</span></span></figcaption>
+</figure>
+</sc-if>
+<sc-if value="{{show1}}" hint-placeholder-val="{{ false }}">
+<figure class="wd-menu" style="margin: 0; display: flex; flex-direction: column; gap: 28px">
+<blockquote style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(20px, 2.4vw, 28px); line-height: 1.4; color: #FFFFFF; font-weight: 500">Our new website finally reflects the quality of our products. The team listened carefully and delivered something we're proud to share.</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 14px"><span aria-hidden="true" style="width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg,#6366F1,#60A5FA); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #FFFFFF">B</span><span style="display: flex; flex-direction: column; line-height: 1.3"><span style="color: #FFFFFF; font-weight: 600">[Client Name]</span><span style="color: #8D94AE; font-size: 14px">Owner, [E-commerce Brand]</span></span></figcaption>
+</figure>
+</sc-if>
+<sc-if value="{{show2}}" hint-placeholder-val="{{ false }}">
+<figure class="wd-menu" style="margin: 0; display: flex; flex-direction: column; gap: 28px">
+<blockquote style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(20px, 2.4vw, 28px); line-height: 1.4; color: #FFFFFF; font-weight: 500">Consistent content, clear reporting and a team that genuinely cares about growth. Exactly what a personal brand needs.</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 14px"><span aria-hidden="true" style="width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg,#A78BFA,#7C3AED); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #FFFFFF">C</span><span style="display: flex; flex-direction: column; line-height: 1.3"><span style="color: #FFFFFF; font-weight: 600">[Client Name]</span><span style="color: #8D94AE; font-size: 14px">Creator, [Personal Brand]</span></span></figcaption>
+</figure>
+</sc-if>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; margin-top: 36px; padding-top: 28px; border-top: 1px solid rgba(255,255,255,0.08)">
+<div style="display: flex; gap: 10px; align-items: center">
+<sc-for list="{{dots}}" as="d" hint-placeholder-count="3">
+<button type="button" onClick="{{d.go}}" aria-label="{{d.label}}" aria-current="{{d.current}}" style="width: 44px; height: 44px; border: 0; background-color: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><sc-if value="{{d.active}}" hint-placeholder-val="{{ false }}"><span style="display: block; width: 32px; height: 8px; border-radius: 999px; background: linear-gradient(90deg,#8B5CF6,#3B82F6)"></span></sc-if><sc-if value="{{d.inactive}}" hint-placeholder-val="{{ true }}"><span style="display: block; width: 8px; height: 8px; border-radius: 999px; background-color: rgba(255,255,255,0.3)"></span></sc-if></button>
+</sc-for>
+</div>
+<div style="display: flex; gap: 10px">
+<button class="wd-btn wd-btn-ghost" type="button" onClick="{{prev}}" aria-label="Previous testimonial" style="width: 48px; height: 48px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.18); background-color: rgba(255,255,255,0.03); color: #FFFFFF; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button>
+<button class="wd-btn wd-btn-primary" type="button" onClick="{{next}}" aria-label="Next testimonial" style="width: 48px; height: 48px; border-radius: 50%; border: 0; background: linear-gradient(135deg,#8B5CF6,#3B82F6); color: #FFFFFF; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ============ SECTION 10: FINAL CTA ============ -->
+<section id="start" aria-labelledby="cta-title" style="padding: 0 24px 128px">
+<div class="wd-reveal" style="position: relative; max-width: 1240px; margin: 0 auto; border-radius: 40px; overflow: hidden; padding: clamp(56px, 8vw, 112px) 32px; text-align: center">
+<div class="wd-shift" aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(120deg, #5B21B6, #4338CA, #1D4ED8, #7C3AED)"></div>
+<div aria-hidden="true" style="position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,0.18) 1px, transparent 1px); background-size: 26px 26px; opacity: 0.35"></div>
+<div aria-hidden="true" class="wd-pulse" style="position: absolute; top: -40%; left: 50%; width: 700px; height: 700px; margin-left: -350px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,0.25), rgba(255,255,255,0) 60%)"></div>
+<div style="position: relative; display: flex; flex-direction: column; align-items: center; gap: 24px">
+<h2 id="cta-title" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(40px, 6vw, 84px); line-height: 0.98; letter-spacing: -0.04em; color: #FFFFFF">READY TO GROW<br>YOUR BRAND?</h2>
+<p style="margin: 0; max-width: 520px; font-size: 19px; color: #EDE9FE">Let's turn your next big idea into something extraordinary.</p>
+<a class="wd-btn" href="Contact.dc.html" style="margin-top: 12px; display: inline-flex; align-items: center; gap: 10px; height: 60px; padding: 0 34px; border-radius: 999px; background-color: #FFFFFF; color: #1E1B4B; text-decoration: none; font-weight: 700; font-size: 17px; box-shadow: 0 18px 50px -12px rgba(5,6,11,0.6)">Start Your Project <svg class="wd-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
+</div>
+</section>
+
+</main>
+
+<!-- ============ SECTION 11: FOOTER ============ -->
+<footer id="contact" style="border-top: 1px solid rgba(255,255,255,0.08); background-color: #04050A; padding: 80px 24px 32px; scroll-margin-top: 76px">
+<div style="max-width: 1240px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 18px; grid-column: span 1; min-width: 0">
+<a href="#top" aria-label="Web Divider home" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #FFFFFF">
+<span aria-hidden="true" style="width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg,#8B5CF6,#3B82F6); display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M7 4 L12 20 L17 4"></path></svg></span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px">Web<span class="wd-grad-text">Divider</span></span>
+</a>
+<p style="margin: 0; color: #8D94AE; font-size: 15px">A creative digital marketing agency helping ambitious brands grow through strategy, creativity and technology.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<a class="wd-btn wd-btn-ghost" href="#" aria-label="Instagram (add your profile link)" style="height: 44px; padding: 0 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); display: inline-flex; align-items: center; color: #D4D8E8; text-decoration: none; font-size: 13px; font-weight: 600">Instagram</a>
+<a class="wd-btn wd-btn-ghost" href="#" aria-label="LinkedIn (add your profile link)" style="height: 44px; padding: 0 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); display: inline-flex; align-items: center; color: #D4D8E8; text-decoration: none; font-size: 13px; font-weight: 600">LinkedIn</a>
+<a class="wd-btn wd-btn-ghost" href="#" aria-label="X (add your profile link)" style="height: 44px; padding: 0 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); display: inline-flex; align-items: center; color: #D4D8E8; text-decoration: none; font-size: 13px; font-weight: 600">X</a>
+<a class="wd-btn wd-btn-ghost" href="#" aria-label="Facebook (add your profile link)" style="height: 44px; padding: 0 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); display: inline-flex; align-items: center; color: #D4D8E8; text-decoration: none; font-size: 13px; font-weight: 600">Facebook</a>
+</div>
+</div>
+<nav aria-label="Quick links" style="display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0 0 6px; font-size: 13px; letter-spacing: 0.18em; color: #FFFFFF; font-weight: 600">QUICK LINKS</h3>
+<a class="wd-foot-link" href="#top" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Home</a>
+<a class="wd-foot-link" href="About.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">About Us</a>
+<a class="wd-foot-link" href="Services.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Services</a>
+<a class="wd-foot-link" href="Work.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Our Work</a>
+<a class="wd-foot-link" href="Contact.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Contact Us</a>
+</nav>
+<nav aria-label="Services" style="display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0 0 6px; font-size: 13px; letter-spacing: 0.18em; color: #FFFFFF; font-weight: 600">SERVICES</h3>
+<a class="wd-foot-link" href="Services.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Social Media Marketing</a>
+<a class="wd-foot-link" href="Services.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Website Design &amp; Development</a>
+<a class="wd-foot-link" href="Services.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">SEO</a>
+<a class="wd-foot-link" href="Services.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Content Creation</a>
+<a class="wd-foot-link" href="Services.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Paid Advertising</a>
+<a class="wd-foot-link" href="Services.dc.html" style="color: #A9B0C9; text-decoration: none; font-size: 15px">Branding &amp; Creative Design</a>
+</nav>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0 0 6px; font-size: 13px; letter-spacing: 0.18em; color: #FFFFFF; font-weight: 600">CONTACT</h3>
+<span style="display: flex; gap: 10px; align-items: center; color: #A9B0C9; font-size: 15px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>[your@email.com]</span>
+<span style="display: flex; gap: 10px; align-items: center; color: #A9B0C9; font-size: 15px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>[+00 00000 00000]</span>
+<span style="display: flex; gap: 10px; align-items: center; color: #A9B0C9; font-size: 15px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>[Your City, Country]</span>
+<a class="wd-btn wd-btn-primary" href="Contact.dc.html" style="margin-top: 8px; align-self: flex-start; display: inline-flex; align-items: center; height: 46px; padding: 0 20px; border-radius: 999px; background: linear-gradient(100deg,#8B5CF6,#3B82F6); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 14px">Let's Talk</a>
+</div>
+</div>
+<div style="max-width: 1240px; margin: 64px auto 0; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.07); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; color: #7F86A0; font-size: 14px">
+<span>© 2026 Web Divider. All rights reserved.</span>
+<span>Designed for growth · US · UK · Canada · India</span>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":7600}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { menuOpen: false, slide: 0 };
+  }
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      if (!this.paused) this.setState({ slide: (this.state.slide + 1) % 3 });
+    }, 7000);
+  }
+  componentWillUnmount() {
+    clearInterval(this.timer);
+  }
+  renderVals() {
+    const s = this.state.slide;
+    const open = this.state.menuOpen;
+    const go = (i) => () => { this.paused = true; this.setState({ slide: i }); };
+    return {
+      menuOpen: open,
+      menuClosed: !open,
+      menuOpenStr: open ? 'true' : 'false',
+      menuLabel: open ? 'Close menu' : 'Open menu',
+      toggleMenu: () => this.setState({ menuOpen: !open }),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      show0: s === 0, show1: s === 1, show2: s === 2,
+      prev: () => { this.paused = true; this.setState({ slide: (s + 2) % 3 }); },
+      next: () => { this.paused = true; this.setState({ slide: (s + 1) % 3 }); },
+      dots: [0, 1, 2].map((i) => ({
+        go: go(i),
+        label: 'Show testimonial ' + (i + 1),
+        current: i === s ? 'true' : 'false',
+        active: i === s,
+        inactive: i !== s
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>

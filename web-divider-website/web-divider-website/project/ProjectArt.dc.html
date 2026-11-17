@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Project visual (reusable)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div class="wd-art-root" aria-hidden="true" style="position: absolute; inset: 0; overflow: hidden; font-family: Inter, system-ui, sans-serif; color: #FFFFFF; background-color: #0B0E22">
+
+<!-- 01 E-COMMERCE: desktop store + phone -->
+<sc-if value="{{isEcom}}" hint-placeholder-val="{{ true }}">
+<div style="position: absolute; inset: 0; background: radial-gradient(circle at 80% 10%, #7C3AED 0%, #312E81 35%, #0B0E22 75%)">
+<div style="position: absolute; left: 7%; top: 12%; width: 70%; height: 76%; border-radius: 14px; border: 1px solid rgba(255,255,255,0.2); background-color: #0A0D1F; overflow: hidden; box-shadow: 0 30px 60px -20px rgba(0,0,0,0.7)">
+<div style="height: 12%; min-height: 24px; display: flex; align-items: center; justify-content: space-between; padding: 0 5%; border-bottom: 1px solid rgba(255,255,255,0.08)"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.12em">STORE</span><span style="display: flex; gap: 6px; align-items: center"><span style="width: 30px; height: 6px; border-radius: 3px; background-color: rgba(255,255,255,0.3)"></span><span style="width: 30px; height: 6px; border-radius: 3px; background-color: rgba(255,255,255,0.3)"></span><span style="width: 18px; height: 18px; border-radius: 6px; background: linear-gradient(135deg,#A78BFA,#60A5FA)"></span></span></div>
+<div style="padding: 5%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6%; height: 88%">
+<div style="display: flex; flex-direction: column; gap: 8px"><div style="flex: 1; border-radius: 10px; background: radial-gradient(circle at 50% 45%, #C4B5FD 0 22%, #4C1D95 23% 100%)"></div><span style="height: 6px; width: 80%; border-radius: 3px; background-color: rgba(255,255,255,0.55)"></span><span style="height: 6px; width: 40%; border-radius: 3px; background-color: #A78BFA"></span></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><div style="flex: 1; border-radius: 10px; background: radial-gradient(circle at 50% 45%, #93C5FD 0 22%, #1E3A8A 23% 100%)"></div><span style="height: 6px; width: 70%; border-radius: 3px; background-color: rgba(255,255,255,0.55)"></span><span style="height: 6px; width: 35%; border-radius: 3px; background-color: #60A5FA"></span></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><div style="flex: 1; border-radius: 10px; background: radial-gradient(circle at 50% 45%, #F0ABFC 0 22%, #581C87 23% 100%)"></div><span style="height: 6px; width: 75%; border-radius: 3px; background-color: rgba(255,255,255,0.55)"></span><span style="height: 6px; width: 45%; border-radius: 3px; background-color: #A78BFA"></span></div>
+</div>
+</div>
+<div style="position: absolute; right: 7%; bottom: 10%; width: 22%; height: 62%; border-radius: 18px; border: 1px solid rgba(255,255,255,0.25); background-color: #0A0D1F; padding: 3%; display: flex; flex-direction: column; gap: 6%; box-shadow: 0 30px 60px -20px rgba(0,0,0,0.7)">
+<div style="flex: 1; border-radius: 10px; background: radial-gradient(circle at 50% 45%, #C4B5FD 0 26%, #4C1D95 27% 100%)"></div>
+<span style="height: 6px; width: 70%; border-radius: 3px; background-color: rgba(255,255,255,0.55)"></span>
+<span style="height: 18%; max-height: 26px; border-radius: 999px; background: linear-gradient(90deg,#8B5CF6,#3B82F6)"></span>
+</div>
+</div>
+</sc-if>
+
+<!-- 02 BRAND IDENTITY: presentation board -->
+<sc-if value="{{isBrand}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; inset: 0; background-color: #0D0B1F; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 3%; padding: 5%">
+<div style="grid-column: span 2; grid-row: span 2; border-radius: 16px; background: linear-gradient(140deg, #6D28D9, #4338CA 55%, #1D4ED8); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6%">
+<svg width="34%" viewBox="0 0 100 100" style="max-width: 140px"><circle cx="50" cy="50" r="44" fill="none" stroke="#FFFFFF" stroke-width="6"></circle><path d="M28 34 L50 72 L72 34" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; letter-spacing: 0.3em; font-size: 14px">YOUR BRAND</span>
+</div>
+<div style="border-radius: 16px; background-color: #F5F3FF; color: #1E1B4B; display: flex; flex-direction: column; justify-content: center; padding: 10%"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 44px; line-height: 1">Aa</span><span style="font-size: 10px; letter-spacing: 0.14em; font-weight: 600; margin-top: 6px">TYPEFACE</span></div>
+<div style="border-radius: 16px; overflow: hidden; display: grid; grid-template-rows: repeat(4, minmax(0, 1fr))"><span style="background-color: #8B5CF6"></span><span style="background-color: #4F46E5"></span><span style="background-color: #3B82F6"></span><span style="background-color: #E0E7FF"></span></div>
+</div>
+</sc-if>
+
+<!-- 03 SOCIAL CAMPAIGN: fanned posts -->
+<sc-if value="{{isSocial}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; inset: 0; background: radial-gradient(circle at 50% 110%, #DB2777 0%, #6D28D9 35%, #1E1B4B 70%, #0B0E22 100%)">
+<div style="position: absolute; left: 50%; top: 52%; width: 34%; aspect-ratio: 4 / 5; transform: translate(-112%, -50%) rotate(-12deg); border-radius: 14px; background: linear-gradient(160deg, #F472B6, #8B5CF6); border: 1px solid rgba(255,255,255,0.3); box-shadow: 0 20px 40px -10px rgba(0,0,0,0.6)"><span style="position: absolute; left: 10%; bottom: 10%; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; line-height: 1.05">NEW<br>DROP</span></div>
+<div style="position: absolute; left: 50%; top: 50%; width: 34%; aspect-ratio: 4 / 5; transform: translate(-50%, -50%); border-radius: 14px; background-color: #0A0D1F; border: 1px solid rgba(255,255,255,0.3); padding: 4%; display: flex; flex-direction: column; gap: 6%; box-shadow: 0 30px 50px -10px rgba(0,0,0,0.7); z-index: 2">
+<div style="display: flex; align-items: center; gap: 6px"><span style="width: 18px; height: 18px; border-radius: 50%; background: linear-gradient(135deg,#F472B6,#8B5CF6)"></span><span style="width: 50%; height: 6px; border-radius: 3px; background-color: rgba(255,255,255,0.5)"></span></div>
+<div style="flex: 1; border-radius: 10px; background: linear-gradient(135deg, #A78BFA, #3B82F6); display: flex; align-items: center; justify-content: center"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 22px">BE BOLD</span></div>
+<div style="display: flex; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#F472B6"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg><span style="width: 16px; height: 16px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.6)"></span><span style="width: 16px; height: 16px; border-radius: 4px; border: 2px solid rgba(255,255,255,0.6)"></span></div>
+</div>
+<div style="position: absolute; left: 50%; top: 52%; width: 34%; aspect-ratio: 4 / 5; transform: translate(12%, -50%) rotate(12deg); border-radius: 14px; background: linear-gradient(160deg, #3B82F6, #1E1B4B); border: 1px solid rgba(255,255,255,0.3); box-shadow: 0 20px 40px -10px rgba(0,0,0,0.6)"><span style="position: absolute; right: 10%; top: 10%; width: 36%; aspect-ratio: 1; border-radius: 50%; background-color: rgba(255,255,255,0.85)"></span></div>
+</div>
+</sc-if>
+
+<!-- 04 VIDEO CAMPAIGN: vertical video + timeline -->
+<sc-if value="{{isVideo}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; inset: 0; background: linear-gradient(120deg, #0B0E22 0%, #3B0764 55%, #1E3A8A 100%)">
+<div style="position: absolute; left: 10%; top: 8%; bottom: 8%; aspect-ratio: 9 / 16; border-radius: 20px; overflow: hidden; border: 1px solid rgba(255,255,255,0.3); background: radial-gradient(circle at 40% 35%, #F0ABFC, #7C3AED 40%, #1E1B4B 100%); box-shadow: 0 30px 60px -20px rgba(0,0,0,0.7)">
+<span style="position: absolute; left: 50%; top: 45%; width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 50%; background-color: rgba(255,255,255,0.92); display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="#4C1D95" style="margin-left: 3px"><path d="M6 4v16l14-8z"></path></svg></span>
+<span style="position: absolute; left: 10%; right: 10%; bottom: 16%; height: 8px; border-radius: 4px; background-color: rgba(255,255,255,0.85)"></span>
+<span style="position: absolute; left: 10%; right: 30%; bottom: 10%; height: 8px; border-radius: 4px; background-color: rgba(255,255,255,0.5)"></span>
+</div>
+<div style="position: absolute; left: calc(10% + 28%); right: 7%; top: 18%; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.18em; color: #E9D5FF">EDIT TIMELINE</span>
+<div style="display: flex; gap: 4px; height: 30px"><span style="flex: 3; border-radius: 6px; background-color: rgba(167,139,250,0.75)"></span><span style="flex: 2; border-radius: 6px; background-color: rgba(96,165,250,0.75)"></span><span style="flex: 4; border-radius: 6px; background-color: rgba(192,132,252,0.7)"></span></div>
+<div style="display: flex; gap: 4px; height: 22px"><span style="flex: 2; border-radius: 6px; background-color: rgba(244,114,182,0.6)"></span><span style="flex: 5; border-radius: 6px; background-color: rgba(244,114,182,0.35)"></span></div>
+<div style="display: flex; gap: 4px; height: 16px"><span style="flex: 7; border-radius: 6px; background-color: rgba(52,211,153,0.45)"></span></div>
+<div style="display: flex; gap: 8px; margin-top: 10px"><span style="width: 30%; aspect-ratio: 9 / 16; border-radius: 10px; background: linear-gradient(160deg,#A78BFA,#1E1B4B)"></span><span style="width: 30%; aspect-ratio: 9 / 16; border-radius: 10px; background: linear-gradient(160deg,#60A5FA,#1E1B4B)"></span><span style="width: 30%; aspect-ratio: 9 / 16; border-radius: 10px; background: linear-gradient(160deg,#F472B6,#1E1B4B)"></span></div>
+</div>
+</div>
+</sc-if>
+
+<!-- 05 GROWTH CAMPAIGN: campaign board, no figures -->
+<sc-if value="{{isGrowth}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; inset: 0; background: radial-gradient(circle at 20% 80%, #1D4ED8 0%, #0F172A 55%, #05060B 100%)">
+<svg viewBox="0 0 400 200" preserveAspectRatio="none" style="position: absolute; left: 6%; right: 6%; top: 34%; width: 88%; height: 44%"><defs><linearGradient id="gArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.5"></stop><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"></stop></linearGradient></defs><path d="M0,170 C60,160 90,120 140,128 C190,136 220,80 270,70 C320,60 350,40 400,20 L400,200 L0,200 Z" fill="url(#gArea)"></path><path d="M0,170 C60,160 90,120 140,128 C190,136 220,80 270,70 C320,60 350,40 400,20" fill="none" stroke="#C4B5FD" stroke-width="4" stroke-linecap="round"></path></svg>
+<div style="position: absolute; left: 6%; top: 9%; display: flex; gap: 10px; flex-wrap: wrap; right: 6%">
+<span style="padding: 8px 12px; border-radius: 10px; background-color: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); font-size: 12px; font-weight: 600">Awareness</span>
+<span style="padding: 8px 12px; border-radius: 10px; background: linear-gradient(90deg,#8B5CF6,#3B82F6); font-size: 12px; font-weight: 600">Engagement</span>
+<span style="padding: 8px 12px; border-radius: 10px; background-color: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); font-size: 12px; font-weight: 600">Search · Social · Display</span>
+</div>
+<div style="position: absolute; right: 7%; bottom: 9%; width: 34%; padding: 12px; border-radius: 14px; background-color: rgba(10,13,31,0.85); border: 1px solid rgba(255,255,255,0.18); display: flex; gap: 10px; align-items: center"><span style="width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg,#A78BFA,#60A5FA); flex-shrink: 0"></span><span style="display: flex; flex-direction: column; gap: 5px; flex: 1"><span style="height: 6px; width: 80%; border-radius: 3px; background-color: rgba(255,255,255,0.6)"></span><span style="height: 6px; width: 50%; border-radius: 3px; background-color: rgba(255,255,255,0.3)"></span></span></div>
+</div>
+</sc-if>
+
+<!-- 06 BUSINESS WEBSITE: wide hero mockup -->
+<sc-if value="{{isBizweb}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; inset: 0; background: linear-gradient(160deg, #1E3A8A 0%, #0B1024 60%)">
+<div style="position: absolute; left: 6%; right: 6%; top: 10%; bottom: 0; border-radius: 16px 16px 0 0; border: 1px solid rgba(255,255,255,0.2); border-bottom: 0; background-color: #F8FAFC; overflow: hidden">
+<div style="height: 14%; min-height: 26px; display: flex; align-items: center; justify-content: space-between; padding: 0 5%; border-bottom: 1px solid #E2E8F0"><span style="width: 60px; height: 10px; border-radius: 5px; background-color: #1E1B4B"></span><span style="display: flex; gap: 10px"><span style="width: 34px; height: 6px; border-radius: 3px; background-color: #94A3B8"></span><span style="width: 34px; height: 6px; border-radius: 3px; background-color: #94A3B8"></span><span style="width: 34px; height: 6px; border-radius: 3px; background-color: #94A3B8"></span><span style="width: 54px; height: 16px; margin-top: -5px; border-radius: 999px; background-color: #4F46E5"></span></span></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6%; padding: 6% 5%">
+<div style="display: flex; flex-direction: column; gap: 10px"><span style="height: 14px; width: 90%; border-radius: 6px; background-color: #1E1B4B"></span><span style="height: 14px; width: 70%; border-radius: 6px; background-color: #1E1B4B"></span><span style="height: 7px; width: 85%; border-radius: 4px; background-color: #94A3B8; margin-top: 6px"></span><span style="height: 7px; width: 65%; border-radius: 4px; background-color: #94A3B8"></span><span style="height: 24px; width: 110px; border-radius: 999px; background: linear-gradient(90deg,#7C3AED,#3B82F6); margin-top: 8px"></span></div>
+<div style="border-radius: 14px; min-height: 120px; background: linear-gradient(135deg, #C7D2FE, #818CF8 50%, #4F46E5)"></div>
+</div>
+</div>
+<div style="position: absolute; right: 9%; bottom: 7%; width: 18%; height: 58%; border-radius: 16px; border: 1px solid rgba(255,255,255,0.3); background-color: #F8FAFC; padding: 3%; display: flex; flex-direction: column; gap: 8px; box-shadow: 0 30px 60px -20px rgba(0,0,0,0.6)"><span style="height: 8px; width: 70%; border-radius: 4px; background-color: #1E1B4B"></span><span style="flex: 1; border-radius: 10px; background: linear-gradient(135deg, #C7D2FE, #4F46E5)"></span><span style="height: 16px; border-radius: 999px; background: linear-gradient(90deg,#7C3AED,#3B82F6)"></span></div>
+</div>
+</sc-if>
+
+<!-- 07 SOCIAL VISUAL SYSTEM: feed grid -->
+<sc-if value="{{isSocialsys}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; inset: 0; background-color: #0A0B1A; display: flex; align-items: center; justify-content: center">
+<div style="width: 66%; max-width: 360px; aspect-ratio: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; transform: rotate(-6deg)">
+<span style="border-radius: 8px; background: linear-gradient(135deg,#8B5CF6,#3B82F6)"></span>
+<span style="border-radius: 8px; background-color: #F5F3FF; display: flex; align-items: center; justify-content: center; color: #4C1D95; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 13px">TIP #1</span>
+<span style="border-radius: 8px; background: radial-gradient(circle, #C4B5FD 0 30%, #312E81 31%)"></span>
+<span style="border-radius: 8px; background-color: #1E1B4B; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 22px; color: #A78BFA">“</span>
+<span style="border-radius: 8px; background: linear-gradient(135deg,#3B82F6,#1E3A8A)"></span>
+<span style="border-radius: 8px; background-color: #F5F3FF; display: flex; align-items: center; justify-content: center; color: #1D4ED8; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 13px">NEW</span>
+<span style="border-radius: 8px; background: radial-gradient(circle at 30% 70%, #60A5FA 0 25%, #4C1D95 26%)"></span>
+<span style="border-radius: 8px; background: linear-gradient(135deg,#A78BFA,#F472B6)"></span>
+<span style="border-radius: 8px; background-color: #1E1B4B; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 12px; color: #93C5FD">SWIPE →</span>
+</div>
+</div>
+</sc-if>
+
+<!-- 08 PRODUCT BRANDING: packaging on podium -->
+<sc-if value="{{isProduct}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; inset: 0; background: radial-gradient(circle at 50% 30%, #6D28D9 0%, #2E1065 40%, #0B0E22 80%)">
+<div style="position: absolute; left: 22%; right: 22%; bottom: 10%; height: 14%; border-radius: 50%; background: linear-gradient(180deg, #312E81, #1E1B4B); box-shadow: 0 0 60px rgba(139,92,246,0.5)"></div>
+<div style="position: absolute; left: 36%; bottom: 16%; width: 15%; height: 56%; border-radius: 28px 28px 14px 14px; background: linear-gradient(90deg, #E0E7FF, #FFFFFF 40%, #C7D2FE); box-shadow: 0 20px 40px -10px rgba(0,0,0,0.6)"><span style="position: absolute; left: 30%; right: 30%; top: -10%; height: 12%; border-radius: 6px; background-color: #4C1D95"></span><span style="position: absolute; left: 10%; right: 10%; top: 38%; height: 30%; border-radius: 8px; background: linear-gradient(135deg,#7C3AED,#2563EB)"></span></div>
+<div style="position: absolute; left: 50%; bottom: 16%; width: 18%; height: 40%; border-radius: 12px; background: linear-gradient(135deg, #7C3AED, #3B82F6); border: 1px solid rgba(255,255,255,0.3); display: flex; align-items: center; justify-content: center; box-shadow: 0 20px 40px -10px rgba(0,0,0,0.6)"><svg width="40%" viewBox="0 0 100 100"><path d="M24 30 L50 76 L76 30" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+<span style="position: absolute; left: 6%; top: 8%; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #E9D5FF">PACKAGING · LABEL · IDENTITY</span>
+</div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"variant":{"editor":"enum","options":["ecom","brand","social","video","growth","bizweb","socialsys","product"],"default":"ecom"},"$preview":{"width":640,"height":400}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const v = this.props.variant ?? 'ecom';
+    return {
+      isEcom: v === 'ecom',
+      isBrand: v === 'brand',
+      isSocial: v === 'social',
+      isVideo: v === 'video',
+      isGrowth: v === 'growth',
+      isBizweb: v === 'bizweb',
+      isSocialsys: v === 'socialsys',
+      isProduct: v === 'product'
+    };
+  }
+}
+</script>
+</body>
+</html>
